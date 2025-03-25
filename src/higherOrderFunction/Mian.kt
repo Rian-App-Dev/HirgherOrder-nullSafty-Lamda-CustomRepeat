@@ -1,8 +1,14 @@
 package higherOrderFunction
 
+
+
 fun main() {
     mainRepeat(5){
         println("Hello world")
+    }
+    main2(){
+        a,b ->
+        println(a + b)
     }
 }
 
